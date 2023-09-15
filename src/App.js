@@ -157,7 +157,7 @@ function App() {
                         }
                         style={{ width: "100%" }}
                       />
-                      <h5 style={{ textAlign: "left", margin: 0 }}>
+                      <h5 style={{ textAlign: "left", margin: 0 , fontSize:'13.5px' }}>
                         {ele.title.length > 70
                           ? ele.title.substring(0, 70) + "...."
                           : ele.title}
