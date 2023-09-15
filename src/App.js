@@ -20,7 +20,7 @@ function App() {
     const call = async () => {
       setLoading(true);
       const res = await axios
-        .post(`https://chat-app-backend-f3lm.onrender.com`, {
+        .post(`https://youtube-31.onrender.com/`, {
           search1: searchQuery,
         })
         .then((result) => {
