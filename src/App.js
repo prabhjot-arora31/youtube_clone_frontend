@@ -146,6 +146,7 @@ function App() {
                         marginBottom: "12px",
                         padding: "0.6rem",
                         overflow: "hidden",
+                        backgroundColor:'#d3d3d3'
                       }}
                     >
                       <img
