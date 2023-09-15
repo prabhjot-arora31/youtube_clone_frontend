@@ -101,8 +101,8 @@ function App() {
           <ReactLoading
             type="balls"
             color="black"
-            height={"9px"}
-            width={"9px"}
+            height={"55px"}
+            width={"55px"}
           />
         </div>
       ) : (
