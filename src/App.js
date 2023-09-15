@@ -20,7 +20,7 @@ function App() {
     const call = async () => {
       setLoading(true);
       const res = await axios
-        .post(`http://localhost:3001/`, {
+        .post(`https://chat-app-backend-f3lm.onrender.com`, {
           search1: searchQuery,
         })
         .then((result) => {
@@ -101,8 +101,8 @@ function App() {
           <ReactLoading
             type="balls"
             color="black"
-            height={"3.5%"}
-            width={"3.5%"}
+            height={"9px"}
+            width={"9px"}
           />
         </div>
       ) : (
